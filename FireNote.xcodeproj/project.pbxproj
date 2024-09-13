@@ -11,6 +11,7 @@
 		1B71E0612C93BECA00EFE02A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B71E0602C93BECA00EFE02A /* ContentView.swift */; };
 		1B71E0632C93BECB00EFE02A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B71E0622C93BECB00EFE02A /* Assets.xcassets */; };
 		1B71E0662C93BECB00EFE02A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B71E0652C93BECB00EFE02A /* Preview Assets.xcassets */; };
+		1B71E06D2C93C27200EFE02A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B71E06C2C93C27200EFE02A /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1B71E0602C93BECA00EFE02A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1B71E0622C93BECB00EFE02A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B71E0652C93BECB00EFE02A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B71E06C2C93C27200EFE02A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1B71E05E2C93BECA00EFE02A /* FireNoteApp.swift */,
 				1B71E0602C93BECA00EFE02A /* ContentView.swift */,
+				1B71E06C2C93C27200EFE02A /* LoginView.swift */,
 				1B71E0622C93BECB00EFE02A /* Assets.xcassets */,
 				1B71E0642C93BECB00EFE02A /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B71E06D2C93C27200EFE02A /* LoginView.swift in Sources */,
 				1B71E0612C93BECA00EFE02A /* ContentView.swift in Sources */,
 				1B71E05F2C93BECA00EFE02A /* FireNoteApp.swift in Sources */,
 			);
