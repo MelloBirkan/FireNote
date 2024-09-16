@@ -29,6 +29,8 @@ struct FieldRow: View {
             .stroke(lineWidth: 2)
             .foregroundStyle(.accent)
         )
+        .autocorrectionDisabled()
+        .textInputAutocapitalization(.never)
     }
 }
 

@@ -15,6 +15,7 @@
 		1BE235CD2C963986009610E8 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE235CC2C963986009610E8 /* RegisterView.swift */; };
 		1BE235D12C963ABD009610E8 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE235D02C963ABD009610E8 /* NotesView.swift */; };
 		1BE235D42C963B58009610E8 /* FieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE235D32C963B58009610E8 /* FieldRow.swift */; };
+		1BED5D452C987D85001CDBA0 /* stringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BED5D442C987D85001CDBA0 /* stringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		1BE235CC2C963986009610E8 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		1BE235D02C963ABD009610E8 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		1BE235D32C963B58009610E8 /* FieldRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldRow.swift; sourceTree = "<group>"; };
+		1BED5D442C987D85001CDBA0 /* stringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				1B71E05E2C93BECA00EFE02A /* FireNoteApp.swift */,
 				1B71E0602C93BECA00EFE02A /* ContentView.swift */,
 				1BE235D22C963B3B009610E8 /* Components */,
+				1BED5D432C987D69001CDBA0 /* Extensions */,
 				1BE235CA2C963954009610E8 /* Login */,
 				1BE235CB2C963975009610E8 /* Register */,
 				1BE235CF2C963AB0009610E8 /* Notes */,
@@ -109,6 +112,14 @@
 				1BE235D32C963B58009610E8 /* FieldRow.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		1BED5D432C987D69001CDBA0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1BED5D442C987D85001CDBA0 /* stringExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 			files = (
 				1B71E06D2C93C27200EFE02A /* LoginView.swift in Sources */,
 				1BE235CD2C963986009610E8 /* RegisterView.swift in Sources */,
+				1BED5D452C987D85001CDBA0 /* stringExtensions.swift in Sources */,
 				1BE235D12C963ABD009610E8 /* NotesView.swift in Sources */,
 				1BE235D42C963B58009610E8 /* FieldRow.swift in Sources */,
 				1B71E0612C93BECA00EFE02A /* ContentView.swift in Sources */,
