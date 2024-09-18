@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDnnmxmfrT3ERPJsE6It_Y_vPd3HZTofRI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>573590903782</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>br.com.mellobirkan.FireNote</string>
+	<key>PROJECT_ID</key>
+	<string>firenote-e9720</string>
+	<key>STORAGE_BUCKET</key>
+	<string>firenote-e9720.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:573590903782:ios:0c37f7e48eb826c0e8d427</string>
+</dict>
+</plist>
