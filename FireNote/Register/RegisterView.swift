@@ -11,10 +11,14 @@ struct RegisterView: View {
   @State private var email: String = ""
   @State private var password: String = ""
   @State private var confirmPassword: String = ""
+  @State private var alertIsPresented: Bool = false
+  @State private var goLogin: Bool = false
+  
+  @Environment(\.dismiss) private var dismiss
   
   var body: some View {
     VStack {
-      Text("Registro")
+      Text("Register")
         .font(.title)
         .bold()
       
@@ -28,9 +32,13 @@ struct RegisterView: View {
         FieldRow(titulo: "Confirm Password", text: $confirmPassword, isEmail: false)
         
         Button("Registrar") {
-          
+          if password == confirmPassword {
+            dismiss()
+          } else {
+            alertIsPresented.toggle()
+          }
         }
-        .disabled((email.isDisabled || password.isDisabled || confirmPassword.isDisabled) || (password != confirmPassword))
+        .disabled(email.isDisabled || password.isDisabled || confirmPassword.isDisabled)
         .buttonStyle(BorderedProminentButtonStyle())
         .padding(.top)
       }
@@ -39,9 +47,17 @@ struct RegisterView: View {
     }
     .padding()
     .background(.bg)
+    .alert("Attention", isPresented: $alertIsPresented) {
+      Button("Ok", role: .cancel) { }
+    } message: {
+      Text("Check password and confirm password and try again")
+    }
+    .navigationDestination(isPresented: $goLogin) {
+      LoginView()
+    }
   }
 }
 
 #Preview {
-  RegisterView()
+    RegisterView()
 }
